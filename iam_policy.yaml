@@ -1,0 +1,10 @@
+bindings:
+- members:
+  - user:admin@example.com
+  role: roles/owner
+- members:
+  - serviceAccount:anomaly-detector@your-project.iam.gserviceaccount.com
+  role: roles/bigquery.dataViewer
+- members:
+  - serviceAccount:backup-function@your-project.iam.gserviceaccount.com
+  role: roles/storage.admin
