@@ -8,11 +8,6 @@ A prototype system leveraging Google Cloud Platform’s free-tier services to de
 - **Mitigation:** IAM, Firewall, Security Command Center
 - **Recovery:** Cloud Storage Versioning, Scheduler, Cloud Functions
 
-## Setup
-See [docs/implementation_guide.md](docs/implementation_guide.md) for step-by-step instructions.
-
-## Authors
-- Pranith Jain
 
 # Implementation Guide
 
