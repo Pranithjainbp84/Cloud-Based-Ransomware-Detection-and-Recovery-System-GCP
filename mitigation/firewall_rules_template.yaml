@@ -1,0 +1,9 @@
+resources:
+- name: allow-ssh
+  type: compute.v1.firewall
+  properties:
+    network: global/networks/default
+    sourceRanges: ["YOUR_IP/32"]
+    allowed:
+      - IPProtocol: tcp
+        ports: ["22"]
