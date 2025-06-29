@@ -1,0 +1,4 @@
+bindings:
+- members:
+  - user:your-email@example.com
+  role:roles/viewer
